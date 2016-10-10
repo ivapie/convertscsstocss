@@ -7,16 +7,20 @@ Install the dependencies and devDependencies
 
 ```sh
 $ npm install
-$ npm run convert
 ```
+
+### Convert
 
 The 'npm run convert' works for:
 
-- Convert ./components/**/*.scss to ./build/styles.css
+- Convert './components/**/*.scss' to './build/styles.css'
 - Minify .css
 - Clear .css
 - Check for duplicates classes
 
+```sh
+$ npm run convert
+```
 
 License
 ----
