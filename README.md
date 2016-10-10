@@ -17,7 +17,7 @@ The command to convert SCSS to CSS:
 $ npm run convert
 ```
 	
-## Features
+#### Features
 
 - Convert './components/**/*.scss' to './build/styles.css'
 - Minify .css
