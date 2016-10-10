@@ -1,13 +1,22 @@
 # Convert SCSS to CSS
 Author: [Ivan Piedra](https://twitter.com/ivapie)
 
-### Clone repository
+### Features
+
+Convert './components/**/*.scss' to './build/styles.css'
+Minify .css
+Clear .css
+Check for duplicates classes
+
+### Steps
+
+#### Clone repository
 
 ```sh
 git clone https://github.com/ivapie/convertscsstocss.git
 ```
 
-### Installation
+#### Installation
 
 Install the dependencies and devDependencies
 
@@ -15,7 +24,7 @@ Install the dependencies and devDependencies
 $ npm install
 ```
 
-### Convert
+#### Convert
 
 The command to convert SCSS to CSS:
 
