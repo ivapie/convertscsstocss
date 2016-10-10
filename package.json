@@ -4,7 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "minify": "gulp sass"
+    "convert": "gulp sass"
   },
   "author": "Ivan Piedra <ipiedra@cecropiasolutions.com> (https://plus.google.com/100045045450129923111)",
   "license": "MIT",

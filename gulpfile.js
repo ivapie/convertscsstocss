@@ -1,6 +1,5 @@
 'use strict';
 let gulp = require("gulp");
-let minifycss = require("gulp-minify-css");
 let cleanCSS = require("gulp-clean-css");
 let concat = require("gulp-concat");
 var dedupe = require('gulp-dedupe');
@@ -10,7 +9,6 @@ gulp.task('sass', function () {
     return gulp.src('./components/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(concat('styles.css'))
-        .pipe(minifycss())
         .pipe(dedupe())
         .pipe(cleanCSS({debug: true}, function(details){
             console.log(details);
