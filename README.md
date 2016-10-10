@@ -19,7 +19,7 @@ $ npm run convert
 	
 #### Features
 
-- Convert './components/|*|*/|*.scss' to './build/styles.css'
+- Convert './components/\*\*/\*.scss' to './build/styles.css'
 - Minify .css
 - Clear .css
 - Check for duplicates classes
