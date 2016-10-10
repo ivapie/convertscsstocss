@@ -1,6 +1,12 @@
 # Convert SCSS to CSS
 Author: [Ivan Piedra](https://twitter.com/ivapie)
 
+### Clone repository
+
+```sh
+git clone https://github.com/ivapie/convertscsstocss.git
+```
+
 ### Installation
 
 Install the dependencies and devDependencies
