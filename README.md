@@ -3,10 +3,10 @@ Author: [Ivan Piedra](https://twitter.com/ivapie)
 
 ### Features
 
-Convert './components/**/*.scss' to './build/styles.css'
-Minify .css
-Clear .css
-Check for duplicates classes
+- Convert './components/**/*.scss' to './build/styles.css'
+- Minify .css
+- Clear .css
+- Check for duplicates classes
 
 ### Steps
 
