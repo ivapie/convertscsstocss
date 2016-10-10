@@ -1,0 +1,21 @@
+{
+  "name": "convertsasstocss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "minify": "gulp sass"
+  },
+  "author": "Ivan Piedra <ipiedra@cecropiasolutions.com> (https://plus.google.com/100045045450129923111)",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-dedupe": "0.0.2",
+    "gulp-sass": "^2.3.2"
+  }
+}
